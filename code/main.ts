@@ -11,7 +11,6 @@ import scenes from "./scenes"
 
 import * as fs from "./kernel/filesys"
 
-
 // ---
 
 kaboom()
