@@ -1,4 +1,4 @@
-import * as kbg from "kaboom";
+import * as kbg from "kaplay";
 import sleep from "./sleep";
 
 // ---

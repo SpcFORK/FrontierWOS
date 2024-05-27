@@ -1,4 +1,4 @@
-import * as kbg from "kaboom";
+import * as kbg from "kaplay";
 
 export default async function drainOpacity(sprite: kbg.GameObj<kbg.RectComp | kbg.ColorComp>, duration: number): Promise<void> {
   return new Promise((resolve) => {

@@ -1,4 +1,4 @@
-import * as kbg from "kaboom";
+import * as kbg from "kaplay";
 
 
 async function scaleTween(sprite: kbg.GameObj, duration: number, mult: number, sine: kbg.EaseFunc = easings.easeOutQuad): Promise<kbg.TweenController> {

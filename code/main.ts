@@ -3,7 +3,7 @@
 // $desc: Kernel
 // === ===
 
-import kaboom from "kaboom"
+import kaboom from "kaplay"
 import "kaboom/global"
 
 import load from "./loading"

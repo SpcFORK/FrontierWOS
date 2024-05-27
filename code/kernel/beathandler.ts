@@ -5,7 +5,7 @@ export default function createBeatHandler() {
     const beatInterval = 60000 / bpm;
     let currentTime = time();
     if (!(currentTime - lastBeatTime > beatInterval / 1000)) return false;
-    
+
     lastBeatTime = currentTime;
     return true;
   }

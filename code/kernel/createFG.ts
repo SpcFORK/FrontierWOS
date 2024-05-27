@@ -1,4 +1,4 @@
-import * as kbg from "kaboom";
+import * as kbg from "kaplay";
 
 export default function createFG(): kbg.GameObj<kbg.RectComp | kbg.ColorComp> {
   let fg = add([
